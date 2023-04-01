@@ -1,0 +1,516 @@
+* {
+    box-sizing:border-box;
+}
+body{
+    margin: 0;background-color: #00004d;
+}
+p{
+    text-align:justify;
+}
+input{
+    margin: 0;
+    padding:0;
+}
+img{position: relative;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.clearfloat{
+        clear: both;
+}
+#header{
+        width:100%;
+        height: 0;
+        padding-bottom: 2.5%;
+        position: fixed;
+        display: block;
+        background-color: white;
+        z-index: 3;
+}
+#headerlogo{
+    position: absolute;
+    width: 7.8%;
+    left: 7.5%;
+    top:10%;
+    z-index: 2;
+    
+}
+#marqueecon{
+    position: absolute;
+    top:0;
+    left: 15.3%;
+    z-index: 2;
+    width: 37%;
+    height: 0;
+    padding-bottom: 1.18%;
+    overflow: hidden;
+    
+    
+   
+}
+#bobo{
+    width: 100%;
+    position: absolute;
+    display: block;
+    display: block;
+    height: 0;
+    
+   padding-bottom: 3.14%;
+
+      -moz-animation: marquee 10s linear infinite;
+      -webkit-animation: marquee 10s linear infinite;
+      animation: marquee 10s linear infinite;
+      }
+
+      @-moz-keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+      }
+      @-webkit-keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+      }
+      @keyframes marquee {
+      0% { 
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%) }
+      100% { 
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%); }
+      }
+
+
+
+#headernumber{
+    float: left;
+    position: absolute;
+    display: block;
+    left: 7%;
+    top:-70%;
+    z-index: 2;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: .9vw;
+    
+    }
+    
+#headerphone{
+    position: absolute;
+    width: 2.8%;
+    left: 3%;
+    top:9%;
+    z-index: 2;
+    
+}
+#headercellphone{
+    position: absolute;
+    width: 3%;
+    left: 23%;
+    top:6%;
+    z-index: 2;    
+}
+#headeremail{
+    position: absolute;
+    width: 3.5%;
+    left: 47%;
+    top:3%;
+    z-index: 2; 
+}
+#headeraddress{
+    position: absolute;
+    left: 19%;
+    top:21%;
+    z-index: 2;
+    color:darkblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .9vw;
+}
+#headermap{
+    position: absolute;
+    width:1.1%;
+    left: 17.7%;
+    top:55%;
+    z-index: 2;
+}
+
+
+#searchcon{
+    position: absolute;
+    float: left;
+    width:30%;
+    left: 68%;
+    top:7%;
+    z-index: 2;
+}
+
+input[type=text] {
+float: left;
+  font-size: .8vw;
+  border-style: solid;
+    border-color: white;
+    border-width: thin;
+    padding-top: 1.05%;
+    padding-bottom: 1%;
+    width: 90%;
+    
+}
+#headerbutton{
+   float: left;
+    display: block;
+    top:-50%;
+    
+}
+
+#spacer{
+    float: left;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 0;
+    padding-bottom: 4.38%;
+    background-image: linear-gradient(red 10%, maroon 100%);
+    z-index: 2;
+    
+}
+
+.aboutmenu:hover{
+       color:red;
+
+    }
+#aboutmunecontainer{
+    float: left;
+    display: block;
+    position: fixed;
+    left: 20%;
+    width: 80%;
+    height: 0;
+    padding-bottom:1.8%;
+    margin-top: 2.5%;
+    z-index: 3;
+}
+.aboutmenu{
+    float: left;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 1.1vw;
+    margin-top: .%;
+    font-family: sans-serif;
+    margin-left: 1%;
+    padding: .6% .5% .10% .5%;
+    z-index: 25;
+}
+#aboutmenuprograms{
+    background-color: rgba(255, 255, 255, .5)
+}
+
+
+#programsbody{
+    display: block;
+    position: relative;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0;
+    padding-bottom: 130%;
+    background-color:#f0f0f0;
+    z-index: 1;
+    font-family: sans-serif;
+    font-size: .8vw;
+    max-height: 4366px;
+    
+}
+
+#programsbodycontainer{
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top: 10%;
+    
+}
+
+.programsemblem{
+    width:25%;
+    margin-top: 5%;
+    transition: transform .2s;
+
+    
+}
+.programsemblem:hover{
+   transform: scale(1.5);
+}
+.programsbodycontainerA{
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    background-color: ;
+    text-align: center;
+        
+}
+.hstyle{
+    margin: 0;
+    padding:0;
+    font-size: 1.2vw;
+     
+}
+.programbox{
+    display: block;
+    position: relative;
+    width: 90%;
+    border-style: solid;
+    border-color: #C02323;
+    border-width: thick;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    color: #C02323;
+    
+      
+}
+
+#programboxacctech{
+    border-color: #FD4598;
+    color:#FD4598;
+}
+#programboxis{
+    border-color: #080A78;
+    color:#080A78;
+}
+#programboxstem{
+    border-color: #F56038;
+    color:#F56038;
+}
+#programboxentrep{
+    border-color: #6F0202;
+    color:#6F0202;
+}
+#programboxabm{
+     border-color: #A40FBA;
+    color:#A40FBA;
+}
+#programboxict{
+     border-color: #47D0CC;
+    color:#32918E;
+}
+
+
+.pstyle{
+    margin: 0;
+    margin-top: 2%;
+    padding:0;
+   
+}
+.pstyle2{
+    margin: 0;
+    margin-top: 1%;
+    padding:0;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+.programsbodycontainerinner{
+    border-style: solid;
+    width: 90%;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    padding-top: 0;
+    border-width: thick;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-color: gray;
+}
+
+
+.collapsible {
+   background-image: linear-gradient(#C02323,#861818);
+  color: #444;
+  cursor: pointer;
+    width: 90%;
+    height: 0;
+    
+  padding: 3%;
+    padding-bottom: 5%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: .9vw;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    transition: transform .25s;
+
+}
+.collapsible:hover {
+    transform: scale(1.05);
+}
+
+
+.programsbodycontainerinner {
+  padding: 0 18px;
+  
+  overflow: hidden;
+  background-color: #f1f1f1;
+padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.collapsible:after {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "-"; /* Unicode character for "minus" sign (-) */
+}
+
+
+#collapsibleis{
+   background-image: linear-gradient(#080A78, #050648)
+}
+#collapsibleentrep{
+   background-image: linear-gradient(#6F0202, #430101)
+}
+#collapsibleacctech{
+   background-image: linear-gradient(#FD4598, #CA377A)
+}
+#collapsibleabm{
+    background-image: linear-gradient(#A40FBA, #620970)
+}
+#collapsibleict{
+     background-image: linear-gradient(#47D0CC, #32918E)
+}
+#collapsiblestem{
+     background-image: linear-gradient(#F56038, #933A22)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width:100%;
+    margin: 0;
+    padding:0;
+    display: block;
+    position: relative;
+}
+#footerinsidecontainer{
+    width: 100%;
+    position:absolute;
+    display: block;
+}
+#footerlogo{
+    width: 15%;
+    position:absolute;
+    display: block;
+    float: right;
+    right: 9%;
+    top:10%;
+
+}
+#footercopyright{
+    position:absolute;
+    display: block;
+    float: right;
+    right: 27%;
+    top:10%;
+    font-size: .8vw;
+    font-family: sans-serif;
+    color:white;
+    top:65%;
+    text-align: right;
+}
+#sitemap{
+    position:absolute;
+    display: block;
+    float: right;
+    left:40%;
+    top:-10%;
+    font-size: .8vw;
+    font-family: sans-serif;
+    color:black;
+    top:0%;
+    text-align: left;
+    font-weight: bold;
+}
+#otherlinks{
+    position:absolute;
+    display: block;
+    float: right;
+    left:5%;
+    font-size: .8vw;
+    font-family: sans-serif;
+    color:black;
+    top:0%;
+    text-align: left;
+    font-weight: bold;
+}
+#connect{
+    position:absolute;
+    display: block;
+    float: right;
+    left:5%;
+    font-size: .8vw;
+    font-family: sans-serif;
+    color:white;
+    top:45%;
+    text-align: left;
+}
+.footericon{
+    width:3%;
+    left: 8%;
+}
+#footercallus{
+    position:absolute;
+    display: block;
+    float: right;
+    left:25%;
+    font-size: .8vw;
+    font-family: sans-serif;
+    color:white;
+    top:45%;
+    text-align: left;
+}

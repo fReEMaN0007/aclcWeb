@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Aclc Admission</title>
+        <link rel="stylesheet" type="text/css" href="css/admission.css"/>
+        <link rel = "icon" href = "images/logoonly.png"
+            type = "image/x-icon"> 
+    
+    </head>
+    
+    <body>
+      <div id="header" class="header"> 
+                <div id="headerlogo">
+                    <img src="images/aclclogo.png">
+                </div>
+
+                <img src="images/header.png">
+                <div id="marqueecon"> 
+                    <div id="bobo">
+                        <div id="headernumber"> 
+                        <p>234-0425&emsp;&emsp;&emsp;&emsp;09278647600&emsp;&emsp;&emsp;&emsp;aclc.taytay@yahoo.com</p>
+                        </div>
+                        <img id="headerphone" src="images/phone.png">
+                        <img id="headercellphone" src="images/cellphone.png">
+                        <img id="headeremail" src="images/mail.png">
+
+                    </div>
+                </div>
+                <div id="headeraddress">
+                        <p>#7 El Monteverde Subd. National Road, Brgy. San Juan, Taytay, Rizal</p>
+                </div>
+                <img id="headermap" src="images/map.png">
+                <div id="searchcon"> 
+                    <input type="text" placeholder="">
+                    <button  id="headerbutton" style="background: url(images/search.png);width:8.5%;height:0;
+                                                      padding-bottom: 5%; background-position: center;background-repeat: no-repeat;background-size: contain;border-color: aliceblue;background-color: darkblue;border-width: thin;">
+                    </button>
+                </div>
+        </div>
+    
+        
+        
+         <div id="spacer"></div>
+        <div id="aboutheadermenu">
+            <div id="aboutmunecontainer">
+                <div id="aboutmenuhome" class="aboutmenu">
+                    <p style="margin: 0;padding:0">HOME</p>
+                </div>
+                <div id="aboutmenuabout" class="aboutmenu">
+                    <p style="margin: 0;padding:0">ABOUT</p>
+                </div>
+                <div id="aboutmenuprograms" class="aboutmenu">
+                    <p style="margin: 0;padding:0">PROGRAMS</p>
+                </div>
+                <div id="aboutmenuadmission" class="aboutmenu">
+                    <p style="margin: 0;padding:0">ADMISSION</p>
+                </div>
+                <div id="aboutmenualumni" class="aboutmenu">
+                    <p style="margin: 0;padding:0">ALUMNI</p>
+                </div>
+                <div id="aboutmenujob" class="aboutmenu">
+                    <p style="margin: 0;padding:0">JOB OPPURTUNITY</p>
+                </div>
+            </div>
+        </div>
+
+        
+            <div id="admissionbody">
+                <div id="admissionformcontainer">
+                    <div id="admissionform">
+                        <h1>Admission Form</h1>
+                    </div>
+                     <div class="admissioncontent">
+                        <div class="admissioncontenthead">  
+                            <p class="adcon">Department:</p>
+                            <p class="adcon" id="pid">Year/Level:</p>
+                            <p class="adcon" id="pcourse">Course/Strand:</p>
+                            <p class="adcon">Student Class:</p>
+                        </div>    
+                        
+                        <input class="depradio" type="radio" name="department" value="college"> College
+                        <input class="depradio" type="radio" name="department" value="shs"> Senior Highschool
+                        <select id="year" name="year">
+                            <option value="" disabled selected>Select your option.</option>
+                            <option value="volvo">1st Year</option>
+                            <option value="saab">2nd Year</option>
+                            <option value="fiat">3rd Year</option>
+                            <option value="audi">4th Year</option>
+                            <option value="fiat">Grade 11</option>
+                            <option value="audi">Grade 12</option>
+                        </select>
+                         
+                        <select id="course" name="course">
+                            <option value="" disabled selected>Select your option.</option>
+                            <option value="volvo">BS Computer Science</option>
+                            <option value="saab">BS Information System</option>
+                            <option value="fiat">BS Accounting Technology</option>
+                            <option value="audi">BS Entrepreneurship</option>
+                            <option value="fiat">Accountancy, Business and Management (ABM) Strand</option>
+                            <option value="audi">Science, Technology, Engineering, and Mathematics (STEM) Strand</option>
+                            <option value="audi">Information and Communications Technology (ICT) Strand</option>
+                        </select>
+                         
+                            <input class="depradio" type="radio" name="studentclass" id="radionew" value="new"> New
+                            <input class="depradio" type="radio" name="studentclass" value="old"> Old
+                            <input class="depradio" type="radio" name="studentclass" id="radiotrans" value="transferee"> Transferee
+                    </div>
+                    
+                    
+                    <div class="admissioncontent" id="content2">
+                        <div class="admissioncontenthead">
+                            <p class="adcon">Fullname:</p>
+                            <p class="adcon" id="age" >Age:</p>
+                            <p class="adcon" id="bday" >Birthday:</p>
+                            <p class="adcon" id="gender" >Gender:</p>
+                            <p class="adcon" id="religion" >Religion:</p>
+                        </div>
+                    <div id="clearfloat"></div>  
+                        
+                            <input id="fullnamebox" type="text" placeholder="Lastname, Firstname M.I.">
+                            <input type="number" id="agebox" name="quantity" min="1" max="99">
+                            <input type="date" id="birthdaybox" name="birthday">
+                            <input id="gendermale" class="depradio" type="radio" name="gender" value="Male"> Male
+                            <input class="depradio" type="radio" name="gender" value="Female"> Female
+                            <input id="religionbox" type="text" placeholder="">
+                         
+                        
+                        <div class="admissioncontenthead" id="admissioncontentheadaddress">
+                            <p class="adcon">Adress:</p>
+                            <p class="adcon" id="email" >e-mail:</p>
+                            <p class="adcon" id="cellphone" >Cellphone No.:</p>  
+                        </div>
+                            <input id="addressbox" type="text" placeholder="#,blk,street,brgy.,municipality,province">
+                            <input id="emailbox" type="text" placeholder="">
+                            <input id="cellphonebox" type="text" placeholder="">
+                    <div id="clearfloat"></div>  
+                         
+                         
+                        <div class="admissioncontenthead" id="admissioncontentheadrequirements">
+                             <p class="adcon">Requirements:</p>
+                                
+                         </div>
+                         <div style="margin-left: 1%;">
+                            <input class="reqcheck" type="checkbox" name="vehicle1" value="Bike">
+                            <label for="vehicle1">Form 138 - High School Report Card (Original and Photocopy)</label><br>
+                            <input class="reqcheck" type="checkbox" name="vehicle2" value="Car">
+                            <label for="vehicle2"> Recommendation letter from High school principal and guidance counselor.</label><br>
+                            <input class="reqcheck" type="checkbox" name="vehicle3" value="Boat" >
+                            <label for="vehicle3">Most recent medical and dental health record.</label><br>
+                            <input class="reqcheck" type="checkbox" name="vehicle3" value="Boat">
+                            <label for="vehicle3">Copy of NSO Certified birth certificate.</label><br>
+                            <input class="reqcheck" type="checkbox" name="vehicle3" value="Boat">
+                            <label for="vehicle3">Certificate of Good moral character.</label><br>
+                            <input class="reqcheck" type="checkbox" name="vehicle3" value="Boat">
+                            <label for="vehicle3">Copy of honorable dismissal.</label><br>
+                            <input class="reqcheck" type="checkbox" name="vehicle3" value="Boat">
+                            <label for="vehicle3">Copy of high school diploma.</label><br>
+                            <input class="reqcheck" type="checkbox" name="vehicle3" value="Boat">
+                            <label for="vehicle3">(1) Latest 2”x2” ID Picture.</label><br>
+                            </div>    
+                    </div>
+                   
+                </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <footer>
+            <div id="footerinsidecontainer;">
+                <img src="images/testbanner.png">
+                <div id="footerlogo">
+                    <img  src="images/aclclogo.png">
+                </div>
+                <div id="footercopyright">
+                    <p> &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Copyright 2020, ACLC College of Taytay<br>by Angelo J. Orale &emsp;&emsp;BS Computer Science&emsp;&emsp;3<sup>rd</sup> Year </p>
+                    
+                </div>
+                <div id="sitemap">
+                    <p><b>Site Map:</b><br>
+                                Home&emsp;|&emsp;About&emsp;|&emsp;
+                                Programs&emsp;|&emsp;Admission
+                                Alumni&emsp;|&emsp;Job Opportunity</p><br>
+                    <p><b>Visit Us:</b><br>
+                        #7 El Monteverde Subd. National Road, Brgy. San Juan, Taytay, Rizal
+                    </p>
+                </div>
+                
+                <div id="otherlinks">
+                    <p><strong>Also Visit:</strong><br>
+                                &emsp;ACLC College &emsp; &emsp; &emsp;ACLC Cainta<br>
+                        &emsp;AMA University &emsp; &emsp; &nbsp;ACLC Antipolo</p>
+                </div>
+                
+                <div id="connect">
+                    <p><strong>Connect with us:</strong><br>
+                    <img class="footericon" src="images/fblogo2.png">
+                    <img class="footericon" src="images/twitterlogo.png"> 
+                    <img class="footericon" src="images/ytlogo2.png">
+                    
+                </div>
+                
+                 <div id="footercallus">
+                    <p><strong>Talk to us:</strong><br>
+                                &emsp;&emsp;&emsp;234-0425<br>
+                                &emsp;&emsp;&emsp;09278647600
+                        
+                     </p>
+                
+                    
+                </div>
+                
+            </div>    
+        </footer>
+        
